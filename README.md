@@ -29,3 +29,11 @@ Modules are functionalities organized in one or more JS files which can be reuse
 Each module has its own context, thanks to the module wrapper function. This does two things:
 - It makes all the top level variables only available within this current module, so it cannot interfere with other modules or pollute global scope, unless they are exported to another file.  
 - It makes __dirname, __filename, exports, module, require() available.
+
+### Modules types
+Node.js have three main modules types:
+- Built-in modules
+- Local modules
+- Third-party modules
+
+## Built-in Modules

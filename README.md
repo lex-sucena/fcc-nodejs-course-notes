@@ -37,3 +37,20 @@ Node.js have three main modules types:
 - Third-party modules
 
 ## Built-in Modules
+Obviously are modules that are built into Node.js. You can require them by using this sytax below:
+
+```
+const variableName = require('moduleName")
+```
+
+[Here's](https://www.w3schools.com/nodejs/ref_modules.asp) a list of all the built in modules.
+
+## Local Modules
+Those are the modules created within the project by you or whoever is writing the program.
+
+## Third-party Modules
+Those are the modules built by someone else. You can also make your locals modules available to anyone via NPM Registry.
+To get third-party modules, you should run:
+```
+npm install <name-of-package>
+```

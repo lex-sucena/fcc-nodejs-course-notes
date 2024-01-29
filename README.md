@@ -8,7 +8,7 @@ My notes on the Node.js &amp; Express.js full course by FreeCodeCamp
 ## Globals
 
 There's no Window document on node, but there are global objects. <br>
-Globals are: <strong>objects are available in all modules.</strong>
+Globals are: <strong>objects available in all modules.</strong>
 
 [Here's](https://nodejs.org/api/globals.html) the reference for all global variables.
 
